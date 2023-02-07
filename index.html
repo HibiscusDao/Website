@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+	<title>Hibiscus.tech</title>
+
+	<link href="http://fonts.cdnfonts.com/css/roboto?styles=14394,14396" rel="stylesheet">
+
+</head>
+
+<body>
+
+	
+	<main>
+	<div class="parent">
+		
+		<div class="sidebarparent">
+			<div class="sidebar">
+				<nav class="section-nav">
+		    		<ul class="menu">
+		    			<li><a href="#about">ABOUT</a></li>
+		    			<li><a href="#documentation">DOCUMENTATION</a></li>
+		    			<li><a href="#press">PRESS</a></li>
+		    			<li><a href="#contact">CONTACT</a></li>
+		    		</ul>
+    			</nav>
+			</div>
+		</div>
+
+		<div class="listparent">
+			<div class="list">
+				
+				<section class="top" id="about">
+				<div>
+					<h1>HIBISCUS</h1>
+						<div class="intro">
+							<p>Building transparent, open-source, community-owned tooling for the fashion creator economy.</p>
+
+						</div>
+						<div class="image">
+							<img src="img/Garment_Ecosystem_Graph_Redux_001.png">
+						</div>
+
+
+					
+				</section>
+
+				<section id="documentation">
+					<div>
+						<h1><Datag>DOCUMENTATION</Datag></h1>
+							<div class="intro">
+								<p>Building transparent, open-source, community-owned tooling for the fashion creator economy.
+								<h3>Whitepaper</h3>
+
+							</div>
+
+						
+					</div>
+				</section>	
+					
+					<section id="press">
+						<div>
+							<h1><Datag>PRESS</Datag></h1>
+	    			<table class="styled-table">
+						<thead>
+					        <tr>
+					            <th>Articles</th>
+					            
+					            <th> </th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+								<td>NEW FORUM</td>
+					            <td><a href="https://medium.com/coinmonks/blockchain-and-smart-contract-empowers-designers-creators-88655a2aa32f" target="_blank">Blockchain and Smart Contract Empowers Designers & Creators
+								</a></td>
+					            <td>2022</td>
+					        </tr>
+
+					
+					    </tbody>
+					</table>
+								<div class="intro">
+	
+								</div>
+	
+							
+						</div>
+					</section>
+
+	
+
+
+				<section id="contact">
+						<h1>CONTACT</h1>
+						<div>
+							<p>info@hibiscus.tech
+						</div>
+						
+					</section>
+
+	    			
+
+    		
+
+			</div>
+		</div>
+	</main>
+
+
+	</div>
+
+<script>
+		window.addEventListener('DOMContentLoaded', () => {
+
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			const id = entry.target.getAttribute('id');
+			if (entry.intersectionRatio > 0) {
+				document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+			} else {
+				document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+			}
+		});
+	});
+
+	document.querySelectorAll('section[id]').forEach((section) => {
+		observer.observe(section);
+	});
+	
+});
+</script>
+
+</body>
+
+</html>
