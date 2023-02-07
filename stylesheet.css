@@ -56,6 +56,11 @@ h3 {
     margin: 0;
     color: #bfafb4;}
 
+h4 { 
+        font-size: 20px;
+        margin: 0;
+        color: #bfafb4;}
+
 .top {
     margin-top: 0;
     padding-top: 0;
@@ -99,7 +104,7 @@ h3 {
 
 .footer {
     position: fixed;
-    bottom: 40px;
+    bottom: 80px;
     left: 30px;
     font-size: 13px;
 }
@@ -134,59 +139,36 @@ main > nav {
     text-align: left;
 }
 
-.check {
-    width: 15px;
-}
 
 
 .styled-table {
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 65px 0 765px;
     width: 800px;
 }
 
-.styled-table thead tr {
-    border-bottom: 1px solid #42393c;
-    color: #ffffff;
-    text-align: left;
-    padding-bottom: 17px;
-}
 
-.styled-table th,
+
 .styled-table td {
-    padding: 12px 10px;
+    padding: 12px 5px;
     text-align: left;
 
-}
 
-
-.styled-table tbody tr:hover {
-    background: #42393c;
-}
-
-.styled-table tbody tr:nth-of-type(odd):hover {
-    background-color: #42393c;
-}
-
-.styled-table tbody tr {
-    border-bottom: 1px solid #42393c;
 }
 
 .styled-table tbody td:last-of-type {
     text-align: right;
 }
 
-.styled-table tbody td:nth-last-of-type(2) {
-    text-align: right;
+
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #42393c;
 }
 
-.styled-table th:last-of-type {
-    text-align: right;
-}
 
-.styled-table th:nth-last-of-type(2) {
-    text-align: right;
-}
+
 
 .active {
     background:  url('img/arrow.svg');
