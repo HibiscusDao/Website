@@ -5,8 +5,7 @@ body {
     font-weight:  300;
     font-size: 14px;
     color: #bfafb4;
-    /* background: #252021; */
-    background: #231a1a;
+    background: #281d21;
 }
 
 html {
@@ -59,7 +58,9 @@ h3 {
 h4 { 
         font-size: 20px;
         margin: 0;
-        color: #bfafb4;}
+        color: #bfafb4;
+        font-weight: 400;
+}
 
 .top {
     margin-top: 0;
@@ -72,9 +73,6 @@ h4 {
     margin: 0 0 50px 0
 }
 
-.image {
-    max-width: 550px;
-}
 
 .image img {
     max-width: 750px;
