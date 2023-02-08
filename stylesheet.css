@@ -158,7 +158,9 @@ main > nav {
     text-align: right;
 }
 
-
+.inner {
+  position: absolute;
+}
 
 
 .styled-table tbody tr {
