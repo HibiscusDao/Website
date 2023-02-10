@@ -1,11 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Work Sans', sans-serif;    
+    font-family:'IBM Plex Mono', monospace;    
     font-weight:  300;
     font-size: 14px;
     color: #bfafb4;
-    background: #281d21;
+    background: #211b1f;
 }
 
 html {
@@ -27,19 +27,19 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 li {
     padding-left: 0;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     margin: 0;
 }
 
 h1 { 
 
-    font-size: 35px;
-    padding: 60px 0 0 0; 
+    font-size: 30px;
+    padding: 120px 0 0 0; 
     margin: 0;
     color: #d6cccf;}
 
@@ -75,7 +75,7 @@ h4 {
 
 
 .image img {
-    max-width: 750px;
+    max-width: 800px;
 
     
 }
@@ -88,7 +88,6 @@ h4 {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 230px;
-    border-right: 1px solid #42393c;
 }
 
 .sidebar {
@@ -102,9 +101,10 @@ h4 {
 
 .footer {
     position: fixed;
-    bottom: 80px;
+    bottom: 50px;
     left: 30px;
     font-size: 13px;
+    font-weight: 300;
 }
 
 section {
@@ -168,8 +168,6 @@ main > nav {
 }
 
 
-
-
 .active {
     background:  url('img/arrow.svg');
     background-repeat: no-repeat;
@@ -177,11 +175,5 @@ main > nav {
     background-position: top right;
         }
 
-@media      
-    only screen and (max-width: 1120px){
-        .sidebarparent {visibility: hidden;}
-        .listparent {display: block;}
-        .parent {display: block;}
-        .list {padding: 0 20px 0 20px;}
-        section {margin: 50px 0 50px 0;}
-    }
+@media (prefers-color-scheme: dark) {
+      }
