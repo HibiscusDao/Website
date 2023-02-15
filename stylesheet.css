@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family:'IBM Plex Mono', monospace;    
     font-weight:  300;
-    font-size: 18px;
+    font-size: 14px;
     color: #bfafb4;
     background: #211b1f;
 }
@@ -95,7 +95,7 @@ h4 {
     left: 30px;
     padding-top: 40px;
     position: fixed;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
 }
 
