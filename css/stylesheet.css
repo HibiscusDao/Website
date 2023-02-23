@@ -80,6 +80,7 @@ img             {width: 900px; max-width: 900px; }
   #one {
 	float:left; 
 	margin-right:20px;
+	margin-bottom:20px;
 	width:140px;
 	border:2px solid #35202D;
 	box-shadow: 2px 2px #ddd;
@@ -87,6 +88,7 @@ img             {width: 900px; max-width: 900px; }
   #two{
 	float:left; 
 	margin-right:20px;
+	margin-bottom:20px;
 	width:140px;
 	border:2px solid #35202D;
 	box-shadow: 2px 2px #ddd;
@@ -95,6 +97,16 @@ img             {width: 900px; max-width: 900px; }
   #three {
 	float:left; 
 	margin-right:20px;
+	margin-bottom:20px;
+	width:140px;
+	border:2px solid #35202D;
+	box-shadow: 4px 6px #ddd;
+  }
+
+  #four {
+	float:left; 
+	margin-right:20px;
+	margin-bottom:20px;
 	width:140px;
 	border:2px solid #35202D;
 	box-shadow: 4px 6px #ddd;
