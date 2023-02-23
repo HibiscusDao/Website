@@ -1,0 +1,119 @@
+
+
+
+
+html {
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					scroll-behavior: smooth;
+				}
+
+body            { padding: 0; margin: 0; font-family:'IBM Plex Mono', monospace, Courier; 
+					font-weight: 400; font-size: 14px; color: #35202D; background: #ffffff;}
+
+
+ul              {padding: 0;}
+span            {padding: 0; margin: 0 10px 0 0;}
+li              {margin: 15px 0; padding: 0; list-style: none;}
+a               {text-decoration: none; color: #35202D;}
+a:hover         {color: #35202D; text-decoration: underline;}
+
+h1 {
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 60px;
+    }
+
+img             {width: 900px; max-width: 900px; }
+
+#page           {max-width: 900px; margin: auto; padding: 0 20px;}
+#content        {max-width:100%; margin: auto; padding-top: 55px;}
+#footer 		{max-width: 900px; margin:auto; margin-top: 55px; }
+.header         {display:block; min-height: 80px; position:relative; padding:0px 0px 0px 0px;  /*border : 2px solid #35202D*/}
+
+.logodiv 		{max-width: 50px; position: absolute; float: left;
+	bottom: 0;
+	left: 0; /*border : 2px solid #b3a013*/}
+.logo			{WIDTH: 45px;}
+.comms 		    {	font-size: 12px; position: absolute;
+	bottom: 0;
+	right: 0;
+	font-weight: 600;
+	 text-align: right; margin-bottom: 0px; /*border : 2px solid #13b343*/}
+
+#list           {margin-bottom: 50px;}
+
+
+@media 			all and (max-width: 900px) and (min-width: 20px) {
+.categories 	{visibility: hidden;}
+.catbox			{visibility: hidden;}
+}
+.catbox			{width: 300px; height: 160px; right:0; margin:0; position: absolute; background: #ffffff;
+				display: block; z-index: 999;}
+
+.pub            {color: #35202D; font-size: 16px; font-weight: 600;}
+.article            {color: #282327; font-size: 16px; font-weight: 400;}
+.notification   {color: #ffffff; background: #35202D;}
+.important      {margin-left: -18px;}
+.title          {display: inline-block; margin-bottom: 20px; margin-top: 20px; color: #35202D;}
+.shoptitle      {display: inline-block; margin-bottom: 20px; margin-top: 20px; position: fixed;}
+.subtitle       {display: inline-block; margin: 20px 0; color: #35202D;}
+.subtitle2      {display: inline-block; color: #ffffff; background: #35202D;}
+.subtitle2:hover{color: #ffffff; background: #35202D;}
+.code           {max-width: 900px; background: #ffffff; padding: 20px; margin:10px 0 30px 0; display:inline-block;}
+.codesmall      {background: #1f1f1f; display:inline-block;}
+.description    {background: #1f1f1f; padding: 10px 0 10px 10px; margin-top: 0px;}
+
+.img-docs       {display: block;  width: 140px;
+	margin-bottom: 10px;
+}
+.wrapper { 
+
+	overflow:hidden;
+  }
+  
+  .wrapper div {
+	 min-height: 160px;
+	 
+  }
+  #one {
+	float:left; 
+	margin-right:20px;
+	width:140px;
+	border:2px solid #35202D;
+	box-shadow: 2px 2px #ddd;
+  }
+  #two{
+	float:left; 
+	margin-right:20px;
+	width:140px;
+	border:2px solid #35202D;
+	box-shadow: 2px 2px #ddd;
+  }
+  
+  #three {
+	float:left; 
+	margin-right:20px;
+	width:140px;
+	border:2px solid #35202D;
+	box-shadow: 4px 6px #ddd;
+  }
+
+@media screen and (max-width: 400px)
+{ 
+	
+
+  
+img 			{width: 100%;}
+body			{font-size: 14px;}
+
+#one { 
+    float: none;
+    margin-right:0;
+    width: 140px;;
+    border:0;
+    border-bottom:2px solid #35202D;    
+  }
+
+}
