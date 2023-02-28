@@ -30,7 +30,7 @@ img             {width: 900px; max-width: 900px; }
 #page           {max-width: 900px; margin: auto; padding: 0 20px;}
 #content        {max-width:100%; margin: auto; padding-top: 55px;}
 #footer 		{max-width: 900px; margin:auto; margin-top: 55px; }
-.header         {display:block; min-height: 80px; position:relative; padding:0px 0px 0px 0px;  /*border : 2px solid #35202D*/}
+.header         {display:block; min-height: 80px; position:relative; padding:0px 20px 0px 20px;  /*border : 2px solid #35202D*/}
 
 .logodiv 		{max-width: 50px; position: absolute; float: left;
 	bottom: 0;
