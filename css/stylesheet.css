@@ -83,16 +83,14 @@ img             {width: 900px; max-width: 900px; }
 	margin-bottom:20px;
 	width:140px;
 	border:2px solid #35202D;
-	box-shadow: 2px 2px #ddd;
-  }
+	box-shadow: 4px 6px #ddd;  }
   #two{
 	float:left; 
 	margin-right:20px;
 	margin-bottom:20px;
 	width:140px;
 	border:2px solid #35202D;
-	box-shadow: 2px 2px #ddd;
-  }
+	box-shadow: 4px 6px #ddd;  }
   
   #three {
 	float:left; 
