@@ -30,27 +30,43 @@ img             {width: 900px; max-width: 900px; }
 #page           {max-width: 900px; margin: auto; padding: 0 20px;}
 #content        {max-width:100%; margin: auto; padding-top: 55px;}
 #footer 		{max-width: 900px; margin:auto; margin-top: 55px; }
-.header         {display:block; min-height: 80px; position:relative; margin:0px 20px 0px 20px;  /*border : 2px solid #35202D*/}
+.header {
+	display: block;
+	min-height: 80px;
+	position: relative;
+	margin: 0px 20px 0px 20px;
+	/* border: 2px solid #35202D */
+  }
 
-.logodiv 		{max-width: 50px; position: absolute; float: left;
+.logodiv {
+	max-width: 50px;
+	position: absolute;
+	float: left;
 	bottom: 0;
-	left: 0; /*border : 2px solid #b3a013*/}
-.logo			{WIDTH: 45px;}
-.comms 		    {	font-size: 12px; position: absolute;
+	left: 0;
+	/* border: 2px solid #b3a013 */
+  }
+  
+.logo {
+	width: 45px;
+  }
+  
+.comms {
+	font-size: 12px;
+	position: absolute;
 	bottom: 0;
 	right: 0;
 	font-weight: 600;
-	 text-align: right; margin-bottom: 0px; /*border : 2px solid #13b343*/}
+	text-align: right;
+	margin-bottom: 0px;
+	/* border: 2px solid #13b343 */
+  }
 
 #list           {margin-bottom: 50px;}
 
 
-@media 			all and (max-width: 900px) and (min-width: 20px) {
-.categories 	{visibility: hidden;}
-.catbox			{visibility: hidden;}
-}
-.catbox			{width: 300px; height: 160px; right:0; margin:0; position: absolute; background: #ffffff;
-				display: block; z-index: 999;}
+
+
 
 .pub            {color: #35202D; font-size: 16px; font-weight: 600;}
 .article            {color: #282327; font-size: 16px; font-weight: 400;}
@@ -122,20 +138,28 @@ img             {width: 900px; max-width: 900px; }
 	box-shadow: 4px 6px #ddd;
   }
 
-@media screen and (max-width: 400px)
-{ 
+/* CSS for mobile screens */
+@media only screen and (max-width: 767px) {
+
+	.header {
+		min-height: 100px;
+	  }
 	
+	  .logo {
+		width: 60px;
+	  }
+	
+	  .comms {
+		font-size: 16px;
+	  }
 
-  
-img 			{width: 100%;}
-body			{font-size: 14px;}
+	  li              {margin: 30px 0; padding: 0; list-style: none;}
 
-#one { 
-    float: none;
-    margin-right:0;
-    width: 140px;;
-    border:0;
-    border-bottom:2px solid #35202D;    
-  }
+	  h1 {
+		text-transform: capitalize;
+		font-size: 20px;
+		font-weight: 500;
+		margin-top: 60px;
+		}
 
 }
