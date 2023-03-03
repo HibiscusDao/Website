@@ -94,6 +94,7 @@ img             {width: 900px; max-width: 900px; }
   
   #three {
 	float:left; 
+	opacity: 50%;
 	margin-right:20px;
 	margin-bottom:20px;
 	width:140px;
