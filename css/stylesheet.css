@@ -9,14 +9,14 @@ html {
 				}
 
 body            { padding: 0; margin: 0; font-family:'IBM Plex Mono', monospace, Courier; 
-					font-weight: 400; font-size: 14px; color: #35202D; background: #ffffff;}
+					font-weight: 400; font-size: 14px; color: #3d2333; background: #ffffff;}
 
 
 ul              {padding: 0;}
 span            {padding: 0; margin: 0 10px 0 0;}
 li              {margin: 15px 0; padding: 0; list-style: none;}
-a               {text-decoration: none; color: #35202D;}
-a:hover         {color: #35202D; text-decoration: underline;}
+a               {text-decoration: none; color: #3d2333;}
+a:hover         {color: #3d2333; text-decoration: underline;}
 
 h1 {
 	text-transform: capitalize;
@@ -35,7 +35,7 @@ img             {width: 900px; max-width: 900px; }
 	min-height: 80px;
 	position: relative;
 	margin: 0px 20px 0px 20px;
-	/* border: 2px solid #35202D */
+	/* border: 2px solid #3d2333 */
   }
 
 .logodiv {
@@ -68,18 +68,18 @@ img             {width: 900px; max-width: 900px; }
 
 
 
-.pub            {color: #35202D; font-size: 16px; font-weight: 600;}
-.article            {color: #282327; font-size: 16px; font-weight: 400;}
-.notification   {color: #ffffff; background: #35202D;}
+.pub            {color: #3d2333; font-size: 16px; font-weight: 600;}
+.article            {color: #3d2333; font-size: 16px; font-weight: 400;}
+.notification   {color: #ffffff; background: #3d2333;}
 .important      {margin-left: -18px;}
-.title          {display: inline-block; margin-bottom: 20px; margin-top: 20px; color: #35202D;}
+.title          {display: inline-block; margin-bottom: 20px; margin-top: 20px; color: #3d2333;}
 .shoptitle      {display: inline-block; margin-bottom: 20px; margin-top: 20px; position: fixed;}
-.subtitle       {display: inline-block; margin: 20px 0; color: #35202D;}
-.subtitle2      {display: inline-block; color: #ffffff; background: #35202D;}
-.subtitle2:hover{color: #ffffff; background: #35202D;}
+.subtitle       {display: inline-block; margin: 20px 0; color: #3d2333;}
+.subtitle2      {display: inline-block; color: #ffffff; background: #3d2333;}
+.subtitle2:hover{color: #ffffff; background: #3d2333;}
 .code           {max-width: 900px; background: #ffffff; padding: 20px; margin:10px 0 30px 0; display:inline-block;}
-.codesmall      {background: #1f1f1f; display:inline-block;}
-.description    {background: #1f1f1f; padding: 10px 0 10px 10px; margin-top: 0px;}
+.codesmall      {background: #3d2333; display:inline-block;}
+.description    {background: #3d2333; padding: 10px 0 10px 10px; margin-top: 0px;}
 
 .img-docs       {display: block;  width: 140px;
 	margin-bottom: 10px;
@@ -98,14 +98,14 @@ img             {width: 900px; max-width: 900px; }
 	margin-right:20px;
 	margin-bottom:20px;
 	width:140px;
-	border:2px solid #35202D;
+	border:2px solid #3d2333;
 	box-shadow: 4px 6px #ddd;  }
   #two{
 	float:left; 
 	margin-right:20px;
 	margin-bottom:20px;
 	width:140px;
-	border:2px solid #35202D;
+	border:2px solid #3d2333;
 	box-shadow: 4px 6px #ddd;  }
   
   #three {
@@ -114,7 +114,7 @@ img             {width: 900px; max-width: 900px; }
 	margin-right:20px;
 	margin-bottom:20px;
 	width:140px;
-	border:2px solid #35202D;
+	border:2px solid #3d2333;
 	box-shadow: 4px 6px #ddd;
   }
 
@@ -124,7 +124,7 @@ img             {width: 900px; max-width: 900px; }
 	margin-bottom:20px;
 	width:140px;
 	border-radius: 10px;
-	border:2px solid #35202D;
+	border:2px solid #3d2333;
 	box-shadow: 4px 6px #ddd;
   }
 
@@ -134,7 +134,7 @@ img             {width: 900px; max-width: 900px; }
 	margin-bottom:20px;
 	width:140px;
 	border-radius: 10px;
-	border:2px solid #35202D;
+	border:2px solid #3d2333;
 	box-shadow: 4px 6px #ddd;
   }
 
